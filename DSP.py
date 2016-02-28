@@ -49,7 +49,7 @@ def calc_R_rate(data):
 
 
 def main():
-    f = open('Joris_9.txt', 'r')
+    f = open('subject_9.txt', 'r')
     l = f.readlines()
     raw = clean(l, 29366)
     f.close()
